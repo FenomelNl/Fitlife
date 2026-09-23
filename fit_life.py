@@ -12,7 +12,7 @@ user_height = float(input('Введите рост в формате метры.
 bmi = user_weight / (user_height ** 2)
 
 # Подсчет воды
-water_ml = user_weight * 30 
+water_ml = user_weight * 30
 water_l = water_ml / 1000
 
 

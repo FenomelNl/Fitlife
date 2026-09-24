@@ -1,7 +1,6 @@
 # Проект FitLife - MVP версия 1.0
 import constants
 
-
 # 1. Знакомство
 user_name = input('Введите имя: ').title()
 while True:
@@ -12,8 +11,8 @@ while True:
         print("Неверный формат! Нужно целое число.")
 
 # 2. Сбор данных
-user_weight = float(input('Введите вес в формате килограммы.граммы: ').replace(",", "."))
-user_height = float(input('Введите рост в формате метры.сантиметры: ').replace(",", "."))
+user_weight = float(input('Введите вес в формате кг.г: ').replace(",", "."))
+user_height = float(input('Введите рост в формате м.см: ').replace(",", "."))
 
 # 3. Логика расчетов
 bmi = user_weight / (user_height ** 2)
